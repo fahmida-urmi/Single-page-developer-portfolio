@@ -10,23 +10,27 @@
 body{
     background-color:#151515;
     color: white;
-    width: 1440px;
+    width: 1400px;
     height: 3472px;
     top: -1936px;
     left: 940px;
     gap: 0px;
     opacity: 0px;
     padding: 0px 150px;
-    
+    width: 100%;
 }
 
 /*nav section starts here*/
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav-right{
    
-    padding: 0px;
     display: flex;
     position: relative;
-    right: 480px;
+    right: 422px;
 }
 
 .nav-right .nav-img{
@@ -35,26 +39,25 @@ body{
     gap: 0px;
     opacity: 0px;
     position: absolute;
-   
+     
 } 
 .nav-icon{
     position: absolute;
-    top: 3px;
+    top:0;
     gap: 0px;
-    left: 250px;
+    left: 260px;
     z-index: 1000;
     display: flex;
-    padding-top: 30px;
+    padding-top: 20px;
    
 }
 .nav-icon a{
-    padding: 7px;
+    padding: 6px;
 }
 
 .nav-icon img{
   width: 25.49px;
   height: 25px;
- 
 } 
 
 .logo{
@@ -71,10 +74,6 @@ padding-top: 30px;
 cursor: pointer;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-}
 /*nav section ends here*/
 
 
@@ -200,6 +199,7 @@ margin-bottom: 9px;
     opacity: 0px;
     border-top: 1px solid #ccc;
     padding-top: 50px;
+    overflow: hidden;
 }
 
 .skill-container{
@@ -273,7 +273,7 @@ opacity: 0px;
 .service{
    position: relative;
    top: 800px;
-   
+   overflow: hidden;
 }
 
 .service-container{
@@ -429,7 +429,7 @@ cursor: pointer;
   position: relative;
   border-bottom: 2px solid #beb8b8;
   margin-top: 100px;
- 
+  overflow: hidden;
 }
 
 .contact-left {
@@ -535,10 +535,9 @@ text-decoration-skip-ink: none;
 
 
 /*footer section starts here*/
-
 .footer-content {
   display: flex;
-  gap: 680px;
+  gap: 630px;
   position: relative;
   top: 900px;
   
